@@ -1,0 +1,637 @@
+23:24:51.865 [main] INFO  org.revhire.dao.ApplicationDAO - Seeker 2 applied for job 1
+23:24:51.950 [main] INFO  org.revhire.dao.JobDAO - Updated status for job ID 1 to CLOSED
+23:24:52.003 [main] INFO  org.revhire.dao.NotificationDAO - Notification created for user: 1
+23:24:52.052 [main] INFO  org.revhire.dao.UserDAO - User created successfully with email: new@example.com
+23:24:52.217 [main] INFO  o.revhire.service.ApplicationService - Seeker 2 successfully applied for job 1
+23:24:52.229 [main] INFO  o.revhire.service.ApplicationService - Updated status for application 10 to SHORTLISTED
+23:24:52.698 [main] INFO  org.revhire.service.AuthService - User logged in: john@example.com
+23:24:52.702 [main] WARN  org.revhire.service.AuthService - Recovery failed: Wrong security answer for: john@example.com
+23:24:52.835 [main] WARN  org.revhire.service.AuthService - Invalid password for user: john@example.com
+23:24:52.842 [main] WARN  org.revhire.service.AuthService - Registration attempt with existing email: john@example.com
+23:24:52.983 [main] INFO  org.revhire.service.AuthService - Password recovered successfully for: john@example.com
+23:24:53.134 [main] INFO  org.revhire.service.JobService - Posting new job: Software Engineer
+23:24:53.140 [main] INFO  org.revhire.service.JobService - Closing job ID: 101
+23:24:53.167 [main] INFO  o.r.service.NotificationService - Sent notification to user ID: 1
+23:25:32.641 [main] INFO  org.revhire.dao.ApplicationDAO - Seeker 2 applied for job 1
+23:25:32.689 [main] INFO  org.revhire.dao.JobDAO - Updated status for job ID 1 to CLOSED
+23:25:32.735 [main] INFO  org.revhire.dao.NotificationDAO - Notification created for user: 1
+23:25:32.758 [main] INFO  org.revhire.dao.UserDAO - User created successfully with email: new@example.com
+23:25:32.869 [main] INFO  o.revhire.service.ApplicationService - Seeker 2 successfully applied for job 1
+23:25:32.879 [main] INFO  o.revhire.service.ApplicationService - Updated status for application 10 to SHORTLISTED
+23:25:33.292 [main] INFO  org.revhire.service.AuthService - User logged in: john@example.com
+23:25:33.293 [main] WARN  org.revhire.service.AuthService - Recovery failed: Wrong security answer for: john@example.com
+23:25:33.429 [main] WARN  org.revhire.service.AuthService - Invalid password for user: john@example.com
+23:25:33.433 [main] WARN  org.revhire.service.AuthService - Registration attempt with existing email: john@example.com
+23:25:33.567 [main] INFO  org.revhire.service.AuthService - Password recovered successfully for: john@example.com
+23:25:33.698 [main] INFO  org.revhire.service.JobService - Posting new job: Software Engineer
+23:25:33.707 [main] INFO  org.revhire.service.JobService - Closing job ID: 101
+23:25:33.736 [main] INFO  o.r.service.NotificationService - Sent notification to user ID: 1
+23:27:43.989 [main] INFO  org.revhire.dao.ApplicationDAO - Seeker 2 applied for job 1
+23:27:44.035 [main] INFO  org.revhire.dao.JobDAO - Updated status for job ID 1 to CLOSED
+23:27:44.085 [main] INFO  org.revhire.dao.NotificationDAO - Notification created for user: 1
+23:27:44.113 [main] INFO  org.revhire.dao.UserDAO - User created successfully with email: new@example.com
+23:27:44.238 [main] INFO  o.revhire.service.ApplicationService - Seeker 2 successfully applied for job 1
+23:27:44.248 [main] INFO  o.revhire.service.ApplicationService - Updated status for application 10 to SHORTLISTED
+23:27:44.651 [main] INFO  org.revhire.service.AuthService - User logged in: john@example.com
+23:27:44.653 [main] WARN  org.revhire.service.AuthService - Recovery failed: Wrong security answer for: john@example.com
+23:27:44.788 [main] WARN  org.revhire.service.AuthService - Invalid password for user: john@example.com
+23:27:44.792 [main] WARN  org.revhire.service.AuthService - Registration attempt with existing email: john@example.com
+23:27:44.923 [main] INFO  org.revhire.service.AuthService - Password recovered successfully for: john@example.com
+23:27:45.065 [main] INFO  org.revhire.service.JobService - Posting new job: Software Engineer
+23:27:45.077 [main] INFO  org.revhire.service.JobService - Closing job ID: 101
+23:27:45.105 [main] INFO  o.r.service.NotificationService - Sent notification to user ID: 1
+23:29:16.696 [main] INFO  org.revhire.Main - Starting RevHire Job Portal...
+23:29:16.696 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:29:16.698 [main] INFO  org.revhire.Main - 1. Login
+23:29:16.698 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:29:16.698 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:29:16.698 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:29:16.698 [main] INFO  org.revhire.Main - 5. Exit
+23:29:33.727 [main] INFO  o.revhire.controller.AuthController - 
+--- Job Seeker Registration ---
+23:29:57.771 [main] WARN  o.revhire.controller.AuthController - Password must be at least 8 characters, with upper/lowercase, digit, and special char.
+23:29:57.771 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:29:57.771 [main] INFO  org.revhire.Main - 1. Login
+23:29:57.771 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:29:57.771 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:29:57.771 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:29:57.771 [main] INFO  org.revhire.Main - 5. Exit
+23:30:09.292 [main] INFO  o.revhire.controller.AuthController - 
+--- Job Seeker Registration ---
+23:30:38.479 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Objectives (Type 'NEXT' to finish):
+23:32:49.214 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Education (Type 'NEXT' for details or 'DONE' to skip):
+23:33:49.282 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Experience (Type 'NEXT' for details or 'DONE' to skip):
+23:34:36.507 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Skills (Type 'NEXT' to finish):
+23:35:58.164 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Projects (Type 'NEXT' for details or 'DONE' to skip):
+23:37:04.344 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:37:04.466 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:37:04.472 [main] INFO  org.revhire.dao.UserDAO - User created successfully with email: Vishnu@gmail.com
+23:37:04.487 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:37:04.526 [main] INFO  o.revhire.controller.AuthController - Registration successful! Please login.
+23:37:04.526 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:37:04.526 [main] INFO  org.revhire.Main - 1. Login
+23:37:04.526 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:37:04.526 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:37:04.526 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:37:04.526 [main] INFO  org.revhire.Main - 5. Exit
+23:37:23.185 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:37:29.187 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:37:29.189 [main] WARN  org.revhire.service.AuthService - Login attempt for non-existent email: VVishnu
+23:37:29.190 [main] ERROR o.revhire.controller.AuthController - Login failed: Invalid email or password
+23:37:29.190 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:37:29.190 [main] INFO  org.revhire.Main - 1. Login
+23:37:29.190 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:37:29.190 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:37:29.190 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:37:29.190 [main] INFO  org.revhire.Main - 5. Exit
+23:37:31.080 [main] INFO  o.revhire.controller.AuthController - 
+--- Forgot Password ---
+23:37:41.264 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:37:45.085 [main] WARN  o.revhire.controller.AuthController - New password cannot be blank.
+23:37:45.086 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:37:45.086 [main] INFO  org.revhire.Main - 1. Login
+23:37:45.086 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:37:45.086 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:37:45.086 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:37:45.086 [main] INFO  org.revhire.Main - 5. Exit
+23:37:52.729 [main] INFO  o.revhire.controller.AuthController - 
+--- Forgot Password ---
+23:37:57.894 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:04.159 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:04.161 [main] WARN  org.revhire.service.AuthService - Recovery failed: Wrong security answer for: vishnu@gmail.com
+23:38:04.161 [main] WARN  o.revhire.controller.AuthController - Recovery failed. Incorrect security answer.
+23:38:04.161 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:38:04.161 [main] INFO  org.revhire.Main - 1. Login
+23:38:04.161 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:38:04.161 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:38:04.161 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:38:04.161 [main] INFO  org.revhire.Main - 5. Exit
+23:38:08.948 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:38:17.942 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:18.006 [main] INFO  org.revhire.service.AuthService - User logged in: Vishnu@gmail.com
+23:38:18.006 [main] INFO  o.revhire.controller.AuthController - Login successful! Welcome, Vishnu
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:38:18.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:38:40.807 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:40.826 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:40.837 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:40.848 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:40.859 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:40.871 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:40.872 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Edit Profile ---
+23:38:44.592 [main] INFO  o.revhire.controller.JobSeekerMenu - Do you want to clear and re-enter resume details? (y/n)
+23:38:51.276 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:38:51.297 [main] INFO  org.revhire.dao.JobSeekerDAO - Successfully updated profile for user ID: 1
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - Profile updated successfully.
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:38:51.298 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:39:14.508 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:39:14.518 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:39:14.527 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:39:14.539 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:39:14.549 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:39:14.559 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:39:14.560 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- My Profile ---
+23:39:14.560 [main] INFO  o.revhire.controller.JobSeekerMenu - Phone: 9381887597
+23:39:14.560 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+[Objectives]
+23:39:14.561 [main] INFO  o.revhire.controller.JobSeekerMenu - - Software Developer with a strong foundation in Java, SQL, and backend development, along with hands-on experience in AWS and DevOps tools such as Docker, CI/CD, and Kubernetes. Seeking to build scalable, cloud-native applications while contributing to efficient development and deployment workflows.
+23:39:14.561 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+[Education]
+23:39:14.561 [main] INFO  o.revhire.controller.JobSeekerMenu - - Bachelors of Technology at Rajiv Gandhi University of Knowledge and Technologies, RK Valley (2024)
+23:39:14.564 [main] INFO  o.revhire.controller.JobSeekerMenu - - Pre University Course at RGUKT, RK Valley (2020)
+23:39:14.564 [main] INFO  o.revhire.controller.JobSeekerMenu - - High School at A.P Model School (2018)
+23:39:14.564 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+[Experience]
+23:39:14.565 [main] INFO  o.revhire.controller.JobSeekerMenu - - Junior Data Engineer at Akivna Technologies Private Limited (3 months)
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+[Skills]
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Python
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Java
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - SQL
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Snowflake
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - AWS
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Docker
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Kubernetes
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Jenkins
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Git
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Terraform
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - HTML/CSS
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Bootstrap
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Javascript
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - JQuery
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Linux
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Ansible
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - - Shell Scripting
+23:39:14.567 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+[Projects]
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - - Automatic Infrastructure provisioning using Terraform with AWS (Junior Data Engineer)
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - - next (done)
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - ------------------
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:39:14.568 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:39:31.548 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Search Jobs ---
+23:39:34.929 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - No jobs found matching the criteria.
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:39:34.937 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:39:43.007 [main] INFO  o.revhire.controller.JobSeekerMenu - Logged out.
+23:39:43.008 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:39:43.008 [main] INFO  org.revhire.Main - 1. Login
+23:39:43.008 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:39:43.008 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:39:43.008 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:39:43.008 [main] INFO  org.revhire.Main - 5. Exit
+23:39:48.608 [main] INFO  o.revhire.controller.AuthController - 
+--- Employer Registration ---
+23:40:49.498 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:40:49.569 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:40:49.572 [main] INFO  org.revhire.dao.UserDAO - User created successfully with email: Deepthi2204@cognizant.com
+23:40:49.582 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:40:49.586 [main] INFO  org.revhire.dao.EmployerDAO - Successfully created employer profile for user ID: 2
+23:40:49.586 [main] INFO  o.revhire.controller.AuthController - Registration successful! Welcome to RevHire.
+23:40:49.586 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:40:49.586 [main] INFO  org.revhire.Main - 1. Login
+23:40:49.586 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:40:49.587 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:40:49.587 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:40:49.587 [main] INFO  org.revhire.Main - 5. Exit
+23:40:55.462 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:41:15.403 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:41:15.406 [main] WARN  org.revhire.service.AuthService - Login attempt for non-existent email: deepthi2204@gmail.com
+23:41:15.406 [main] ERROR o.revhire.controller.AuthController - Login failed: Invalid email or password
+23:41:15.406 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:41:15.406 [main] INFO  org.revhire.Main - 1. Login
+23:41:15.406 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:41:15.406 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:41:15.406 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:41:15.406 [main] INFO  org.revhire.Main - 5. Exit
+23:41:26.355 [main] WARN  org.revhire.Main - Invalid choice. Please try again.
+23:41:26.356 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:41:26.356 [main] INFO  org.revhire.Main - 1. Login
+23:41:26.356 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:41:26.356 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:41:26.356 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:41:26.356 [main] INFO  org.revhire.Main - 5. Exit
+23:41:32.140 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:41:38.148 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:41:38.217 [main] INFO  org.revhire.service.AuthService - User logged in: Deepthi2204@cognizant.com
+23:41:38.218 [main] INFO  o.revhire.controller.AuthController - Login successful! Welcome, Deepthi
+23:41:38.218 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:41:38.218 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:41:38.218 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:41:38.218 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:41:38.218 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:41:38.218 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:41:40.600 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Post a New Job ---
+23:43:22.672 [main] INFO  org.revhire.service.JobService - Posting new job: Associate Software developer 
+23:43:22.684 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:43:22.689 [main] INFO  org.revhire.dao.JobDAO - Successfully created job with title: 'Associate Software developer ' for employer: 2
+23:43:22.690 [main] INFO  org.revhire.controller.EmployerMenu - Job posted successfully! Job ID: 1
+23:43:22.690 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:43:22.690 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:43:22.690 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:43:22.690 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:43:22.690 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:43:22.690 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:43:39.623 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Post a New Job ---
+23:44:22.387 [main] WARN  org.revhire.controller.EmployerMenu - Invalid experience years. Defaulting to 0.
+23:44:22.387 [main] INFO  org.revhire.service.JobService - Posting new job: AWS DevOps Engineer (1–2 Years Experience)
+23:44:22.397 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:44:22.404 [main] INFO  org.revhire.dao.JobDAO - Successfully created job with title: 'AWS DevOps Engineer (1–2 Years Experience)' for employer: 2
+23:44:22.405 [main] INFO  org.revhire.controller.EmployerMenu - Job posted successfully! Job ID: 2
+23:44:22.405 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:44:22.405 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:44:22.405 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:44:22.405 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:44:22.405 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:44:22.405 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:44:58.595 [main] WARN  org.revhire.controller.EmployerMenu - Invalid choice.
+23:44:58.595 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:44:58.595 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:44:58.595 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:44:58.595 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:44:58.595 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:44:58.596 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:45:01.717 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Post a New Job ---
+23:45:37.908 [main] INFO  org.revhire.service.JobService - Posting new job: Software Engineer
+23:45:37.920 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:45:37.926 [main] INFO  org.revhire.dao.JobDAO - Successfully created job with title: 'Software Engineer' for employer: 2
+23:45:37.927 [main] INFO  org.revhire.controller.EmployerMenu - Job posted successfully! Job ID: 3
+23:45:37.927 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:45:37.927 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:45:37.927 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:45:37.927 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:45:37.927 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:45:37.927 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:45:42.717 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:45:42.719 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- My Jobs ---
+23:45:58.025 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Managing Job: AWS DevOps Engineer (1–2 Years Experience) ---
+23:45:58.025 [main] INFO  org.revhire.controller.EmployerMenu - 1. View Applicants
+23:45:58.025 [main] INFO  org.revhire.controller.EmployerMenu - 2. Edit Job Details
+23:45:58.025 [main] INFO  org.revhire.controller.EmployerMenu - 3. Close Job
+23:45:58.025 [main] INFO  org.revhire.controller.EmployerMenu - 4. Reopen Job
+23:45:58.025 [main] INFO  org.revhire.controller.EmployerMenu - 5. Delete Job
+23:45:58.025 [main] INFO  org.revhire.controller.EmployerMenu - 6. Back
+23:46:02.118 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Edit Job Details (Enter to keep current) ---
+23:46:19.055 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:46:19.061 [main] INFO  org.revhire.dao.JobDAO - Updated job details for ID: 2
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - Job updated successfully.
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Managing Job: AWS DevOps Engineer (1–2 Years Experience) ---
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - 1. View Applicants
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - 2. Edit Job Details
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - 3. Close Job
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - 4. Reopen Job
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - 5. Delete Job
+23:46:19.062 [main] INFO  org.revhire.controller.EmployerMenu - 6. Back
+23:46:24.119 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - No applicants found for job ID: 2
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Managing Job: AWS DevOps Engineer (1–2 Years Experience) ---
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - 1. View Applicants
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - 2. Edit Job Details
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - 3. Close Job
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - 4. Reopen Job
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - 5. Delete Job
+23:46:24.119 [main] INFO  org.revhire.controller.EmployerMenu - 6. Back
+23:46:31.228 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:46:31.228 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:46:31.228 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:46:31.228 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:46:31.228 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:46:31.228 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:46:40.639 [main] INFO  org.revhire.controller.EmployerMenu - Logged out.
+23:46:40.639 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:46:40.639 [main] INFO  org.revhire.Main - 1. Login
+23:46:40.639 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:46:40.639 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:46:40.639 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:46:40.639 [main] INFO  org.revhire.Main - 5. Exit
+23:46:42.489 [main] INFO  o.revhire.controller.AuthController - 
+--- Job Seeker Registration ---
+23:47:55.504 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Objectives (Type 'NEXT' to finish):
+23:48:12.715 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Education (Type 'NEXT' for details or 'DONE' to skip):
+23:48:41.677 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Experience (Type 'NEXT' for details or 'DONE' to skip):
+23:49:31.767 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Skills (Type 'NEXT' to finish):
+23:49:53.845 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Projects (Type 'NEXT' for details or 'DONE' to skip):
+23:50:28.347 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:50:28.420 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:50:28.424 [main] INFO  org.revhire.dao.UserDAO - User created successfully with email: naveen1104@gmail.com
+23:50:28.433 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:50:28.443 [main] INFO  o.revhire.controller.AuthController - Registration successful! Please login.
+23:50:28.443 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:50:28.443 [main] INFO  org.revhire.Main - 1. Login
+23:50:28.443 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:50:28.443 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:50:28.443 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:50:28.443 [main] INFO  org.revhire.Main - 5. Exit
+23:50:36.922 [main] INFO  o.revhire.controller.AuthController - 
+--- Job Seeker Registration ---
+23:51:15.124 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Objectives (Type 'NEXT' to finish):
+23:51:32.302 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Education (Type 'NEXT' for details or 'DONE' to skip):
+23:51:59.742 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Experience (Type 'NEXT' for details or 'DONE' to skip):
+23:53:57.273 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Skills (Type 'NEXT' to finish):
+23:54:34.479 [main] INFO  o.revhire.controller.AuthController - 
+[Resume] Projects (Type 'NEXT' for details or 'DONE' to skip):
+23:56:05.526 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:05.597 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:05.602 [main] INFO  org.revhire.dao.UserDAO - User created successfully with email: chaithu87908@gmail.com
+23:56:05.609 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:05.623 [main] INFO  o.revhire.controller.AuthController - Registration successful! Please login.
+23:56:05.623 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:56:05.623 [main] INFO  org.revhire.Main - 1. Login
+23:56:05.623 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:56:05.623 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:56:05.623 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:56:05.623 [main] INFO  org.revhire.Main - 5. Exit
+23:56:08.005 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:56:24.704 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:24.767 [main] INFO  org.revhire.service.AuthService - User logged in: chaithu87908@gmail.com
+23:56:24.767 [main] INFO  o.revhire.controller.AuthController - Login successful! Welcome, Chaithu
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Chaithu) ---
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:56:24.767 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:56:27.199 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Search Jobs ---
+23:56:29.523 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:33.879 [main] INFO  o.revhire.controller.JobSeekerMenu - Title: AWS DevOps Engineer (1–2 Years Experience)
+23:56:33.879 [main] INFO  o.revhire.controller.JobSeekerMenu - Description: We are seeking a hands-on AWS DevOps Engineer with practical experience in cloud infrastructure, CI/CD automation, and containerized deployments. The role requires real-world exposure to AWS services and Linux-based systems.
+23:56:33.879 [main] INFO  o.revhire.controller.JobSeekerMenu - Requirements: Design, build, and maintain CI/CD pipelines using GitHub Actions. Provision, configure, and manage AWS infrastructure including EC2, IAM, S3, VPC, RDS, and Lambda , Containerize applications using Docker.Deploy and manage workloads on Kubernetes (EKS). Manage container registries (ECR) and orchestration platforms (ECS/EKS). Perform Linux system administration, monitoring, and troubleshooting.Handle basic MySQL. administration, backups, and performance monitoring. Identify and resolve infrastructure, deployment, and performance issues
+23:56:33.879 [main] INFO  o.revhire.controller.JobSeekerMenu - Salary: 8LPA
+23:56:37.963 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:37.972 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:37.982 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:37.986 [main] INFO  org.revhire.dao.ApplicationDAO - Seeker 4 applied for job 2
+23:56:37.986 [main] INFO  o.revhire.service.ApplicationService - Seeker 4 successfully applied for job 2
+23:56:37.995 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:38.005 [main] INFO  org.revhire.dao.NotificationDAO - Notification created for user: 2
+23:56:38.006 [main] INFO  o.r.service.NotificationService - Sent notification to user ID: 2
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - Applied successfully for job ID: 2
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Chaithu) ---
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:56:38.006 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:56:41.701 [main] INFO  o.revhire.controller.JobSeekerMenu - Logged out.
+23:56:41.701 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:56:41.701 [main] INFO  org.revhire.Main - 1. Login
+23:56:41.701 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:56:41.701 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:56:41.701 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:56:41.701 [main] INFO  org.revhire.Main - 5. Exit
+23:56:44.056 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:56:51.085 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:56:51.148 [main] WARN  org.revhire.service.AuthService - Invalid password for user: vishnu@gmail.com
+23:56:51.148 [main] ERROR o.revhire.controller.AuthController - Login failed: Invalid email or password
+23:56:51.148 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:56:51.148 [main] INFO  org.revhire.Main - 1. Login
+23:56:51.148 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:56:51.148 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:56:51.148 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:56:51.148 [main] INFO  org.revhire.Main - 5. Exit
+23:56:54.154 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:57:02.242 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:57:02.305 [main] INFO  org.revhire.service.AuthService - User logged in: vishnu@gmail.com
+23:57:02.305 [main] INFO  o.revhire.controller.AuthController - Login successful! Welcome, Vishnu
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:57:02.305 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:57:06.673 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Search Jobs ---
+23:57:08.932 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:57:13.639 [main] INFO  o.revhire.controller.JobSeekerMenu - Title: AWS DevOps Engineer (1–2 Years Experience)
+23:57:13.639 [main] INFO  o.revhire.controller.JobSeekerMenu - Description: We are seeking a hands-on AWS DevOps Engineer with practical experience in cloud infrastructure, CI/CD automation, and containerized deployments. The role requires real-world exposure to AWS services and Linux-based systems.
+23:57:13.639 [main] INFO  o.revhire.controller.JobSeekerMenu - Requirements: Design, build, and maintain CI/CD pipelines using GitHub Actions. Provision, configure, and manage AWS infrastructure including EC2, IAM, S3, VPC, RDS, and Lambda , Containerize applications using Docker.Deploy and manage workloads on Kubernetes (EKS). Manage container registries (ECR) and orchestration platforms (ECS/EKS). Perform Linux system administration, monitoring, and troubleshooting.Handle basic MySQL. administration, backups, and performance monitoring. Identify and resolve infrastructure, deployment, and performance issues
+23:57:13.639 [main] INFO  o.revhire.controller.JobSeekerMenu - Salary: 8LPA
+23:57:42.645 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:57:42.659 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:57:42.669 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:57:42.674 [main] INFO  org.revhire.dao.ApplicationDAO - Seeker 1 applied for job 2
+23:57:42.675 [main] INFO  o.revhire.service.ApplicationService - Seeker 1 successfully applied for job 2
+23:57:42.683 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:57:42.687 [main] INFO  org.revhire.dao.NotificationDAO - Notification created for user: 2
+23:57:42.687 [main] INFO  o.r.service.NotificationService - Sent notification to user ID: 2
+23:57:42.687 [main] INFO  o.revhire.controller.JobSeekerMenu - Applied successfully for job ID: 2
+23:57:42.687 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:57:42.687 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:57:42.687 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:57:42.687 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:57:42.687 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:57:42.687 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:57:42.688 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:57:42.688 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:57:47.414 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:57:47.416 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- My Applications ---
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:57:56.437 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:58:02.120 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Search Jobs ---
+23:58:05.803 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:18.983 [main] INFO  o.revhire.controller.JobSeekerMenu - Title: Associate Software developer 
+23:58:18.983 [main] INFO  o.revhire.controller.JobSeekerMenu - Description: This is a full-time, on-site Software Engineer role based in Bengaluru. The Software Engineer will design, develop, and maintain scalable, high-quality back-end systems and contribute to all phases of the software development lifecycle. The responsibilities include creating efficient algorithms, writing clean code, and collaborating with cross-functional teams to solve complex challenges and enhance system functionality. You will have the opportunity to drive innovation in software solutions while ensuring robust and reliable implementations tailored to business needs. 
+23:58:18.983 [main] INFO  o.revhire.controller.JobSeekerMenu - Requirements: Strong foundation in Computer Science, with a solid understanding of fundamental concepts. Expertise in Back-End Web Development, with experience building scalable and reliable server-side systems.  Proficiency in Software Development, Programming, and familiarity with Object-Oriented Programming (OOP) principles.  Strong problem-solving skills and ability to analyze, design, and implement technical solutions.   Bachelor\'s degree in Computer Science, Software Engineering, or a related field.  Excellent collaboration, communication, and adaptability in a team-oriented environment.  Experience with modern development frameworks and tools is a plus.
+23:58:18.983 [main] INFO  o.revhire.controller.JobSeekerMenu - Salary: 6LPA - 8LPA
+23:58:28.961 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:28.969 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:28.978 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:28.982 [main] INFO  org.revhire.dao.ApplicationDAO - Seeker 1 applied for job 1
+23:58:28.984 [main] INFO  o.revhire.service.ApplicationService - Seeker 1 successfully applied for job 1
+23:58:28.992 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:28.996 [main] INFO  org.revhire.dao.NotificationDAO - Notification created for user: 2
+23:58:28.996 [main] INFO  o.r.service.NotificationService - Sent notification to user ID: 2
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - Applied successfully for job ID: 1
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:58:28.996 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:58:33.825 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:33.827 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- My Applications ---
+23:58:36.779 [main] INFO  o.revhire.controller.JobSeekerMenu - 
+--- Job Seeker Dashboard (Vishnu) ---
+23:58:36.779 [main] INFO  o.revhire.controller.JobSeekerMenu - 1. Search Jobs
+23:58:36.779 [main] INFO  o.revhire.controller.JobSeekerMenu - 2. My Applications
+23:58:36.779 [main] INFO  o.revhire.controller.JobSeekerMenu - 3. My Profile
+23:58:36.781 [main] INFO  o.revhire.controller.JobSeekerMenu - 4. Edit Profile
+23:58:36.781 [main] INFO  o.revhire.controller.JobSeekerMenu - 5. Notifications
+23:58:36.781 [main] INFO  o.revhire.controller.JobSeekerMenu - 6. Change Password
+23:58:36.781 [main] INFO  o.revhire.controller.JobSeekerMenu - 7. Logout
+23:58:38.416 [main] INFO  o.revhire.controller.JobSeekerMenu - Logged out.
+23:58:38.417 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:58:38.417 [main] INFO  org.revhire.Main - 1. Login
+23:58:38.417 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:58:38.417 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:58:38.417 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:58:38.417 [main] INFO  org.revhire.Main - 5. Exit
+23:58:40.683 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
+23:58:53.671 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:53.737 [main] INFO  org.revhire.service.AuthService - User logged in: deepthi2204@cognizant.com
+23:58:53.737 [main] INFO  o.revhire.controller.AuthController - Login successful! Welcome, Deepthi
+23:58:53.737 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:58:53.737 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:58:53.737 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:58:53.737 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:58:53.737 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:58:53.737 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:58:58.527 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:58:58.528 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- My Jobs ---
+23:59:03.203 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Managing Job: AWS DevOps Engineer (1–2 Years Experience) ---
+23:59:03.204 [main] INFO  org.revhire.controller.EmployerMenu - 1. View Applicants
+23:59:03.204 [main] INFO  org.revhire.controller.EmployerMenu - 2. Edit Job Details
+23:59:03.204 [main] INFO  org.revhire.controller.EmployerMenu - 3. Close Job
+23:59:03.204 [main] INFO  org.revhire.controller.EmployerMenu - 4. Reopen Job
+23:59:03.204 [main] INFO  org.revhire.controller.EmployerMenu - 5. Delete Job
+23:59:03.204 [main] INFO  org.revhire.controller.EmployerMenu - 6. Back
+23:59:07.985 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:59:07.985 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Applicants ---
+23:59:30.778 [main] INFO  org.revhire.controller.EmployerMenu - Update status to: 1. SHORTLISTED  2. REJECTED
+23:59:37.319 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:59:37.329 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:59:37.334 [main] INFO  org.revhire.dao.ApplicationDAO - Updated status for application ID 2 to SHORTLISTED
+23:59:37.334 [main] INFO  o.revhire.service.ApplicationService - Updated status for application 2 to SHORTLISTED
+23:59:37.341 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:59:37.351 [main] INFO  org.revhire.config.DBConnection - New database connection established.
+23:59:37.353 [main] INFO  org.revhire.dao.NotificationDAO - Notification created for user: 1
+23:59:37.353 [main] INFO  o.r.service.NotificationService - Sent notification to user ID: 1
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - Status updated.
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Managing Job: AWS DevOps Engineer (1–2 Years Experience) ---
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - 1. View Applicants
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - 2. Edit Job Details
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - 3. Close Job
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - 4. Reopen Job
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - 5. Delete Job
+23:59:37.353 [main] INFO  org.revhire.controller.EmployerMenu - 6. Back
+23:59:43.872 [main] INFO  org.revhire.controller.EmployerMenu - 
+--- Employer Dashboard (Deepthi) ---
+23:59:43.872 [main] INFO  org.revhire.controller.EmployerMenu - 1. Post a Job
+23:59:43.872 [main] INFO  org.revhire.controller.EmployerMenu - 2. Manage My Jobs
+23:59:43.872 [main] INFO  org.revhire.controller.EmployerMenu - 3. Search Applicants (Not Implemented)
+23:59:43.872 [main] INFO  org.revhire.controller.EmployerMenu - 4. Change Password
+23:59:43.872 [main] INFO  org.revhire.controller.EmployerMenu - 5. Logout
+23:59:47.466 [main] INFO  org.revhire.controller.EmployerMenu - Logged out.
+23:59:47.466 [main] INFO  org.revhire.Main - 
+=== RevHire Job Portal ===
+23:59:47.466 [main] INFO  org.revhire.Main - 1. Login
+23:59:47.466 [main] INFO  org.revhire.Main - 2. Register as Job Seeker
+23:59:47.466 [main] INFO  org.revhire.Main - 3. Register as Employer
+23:59:47.466 [main] INFO  org.revhire.Main - 4. Forgot Password
+23:59:47.466 [main] INFO  org.revhire.Main - 5. Exit
+23:59:49.812 [main] INFO  o.revhire.controller.AuthController - 
+--- Login ---
